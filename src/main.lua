@@ -16,6 +16,10 @@ function love.load()
     addEnemy(100, 200)
     addEnemy(400, 300)
     addEnemy(200, 500)
+
+    local font = love.graphics.newFont(20)  -- Create a new font object with size 20
+    love.graphics.setFont(font)  -- Set the font to use
+
 end
 
 function love.draw()

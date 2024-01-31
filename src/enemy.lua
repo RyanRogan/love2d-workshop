@@ -2,7 +2,7 @@ function enemy_load()
     enemies = {}
     enemy_width = 300
     enemy_height = 20
-    enemy_speed = 200
+    enemy_speed = 300
 end
 
 function enemy_draw()
